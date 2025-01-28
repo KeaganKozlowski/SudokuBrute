@@ -20,12 +20,15 @@ class SudokuBrute:
         #Which section of the sudoku a number is currently in
         self.box = 0
 
+    #
     def solve(self, board):
         pass
 
+    #
     def grid(self, gridNo):
         pass
 
+    #
     def showBoard(self):
         for i in range(9):
             for j in range(9):
@@ -51,7 +54,8 @@ def Parse_Sudoku(string):
 
     return sudoku_array
 
-def Difficulty_Selector():
+#Allowing the user to select the difficulty they want
+#def Difficulty_Selector():
     
 
 

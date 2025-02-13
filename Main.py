@@ -19,6 +19,7 @@ class SudokuBrute:
         self.steps = 0
         #Which section of the sudoku a number is currently in
         self.box = 0
+        #
 
     #
     def solve(self, board):
